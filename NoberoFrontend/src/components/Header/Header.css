@@ -1,0 +1,77 @@
+.site-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1000; /* Ensure the header stays on top of other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for separation */
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between; /* Ensures space between logo and nav */
+    align-items: center; /* Align items vertically center */
+    padding: 0 20px; /* Optional: Horizontal padding */
+    width: 100%;
+}
+
+.row.large-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure the row takes full width */
+}
+
+.site-title {
+    flex: 1; /* Allows the site-title (logo) to take up its space */
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation {
+    flex: 2; /* Allows the navigation to take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* Align the navigation to the right */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin-right: 20px; /* Space between menu items */
+}
+
+.menu-item:last-child {
+    margin-right: 0; /* Remove margin for last item */
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    color: #007bff;
+}
+
+/* Responsive adjustments for the header */
+@media (max-width: 768px) {
+    .header-main {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

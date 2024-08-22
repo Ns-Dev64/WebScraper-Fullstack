@@ -1,0 +1,61 @@
+/* FilterSidebar.css */
+.filter-sidebar {
+    margin-top: 35px;
+    width: 250px; /* Adjust width as needed */
+    padding: 15px;
+    border-right: 1px solid #ddd; /* Add border for separation */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+  }
+  
+  .filter-sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .filter-option {
+    margin-bottom: 10px;
+  }
+  
+  .filter-option input {
+    margin-right: 8px;
+  }
+  
+  .filter-option label {
+    font-size: 14px;
+  }
+  .filter-sidebar {
+    width: 350px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.filter-sidebar h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.filter-sidebar h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.filter-option {
+    margin-bottom: 10px;
+}
+
+.filter-option label {
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-option input {
+    margin-right: 8px;
+}

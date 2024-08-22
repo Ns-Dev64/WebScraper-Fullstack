@@ -1,0 +1,28 @@
+/* AnnouncementBar.css */
+.announcement-bar {
+  height: 2rem; /* Adjust height as needed */
+  background-color: #242F66;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-wrapper {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite; /* Adjust duration for desired speed */
+}
+
+.marquee-text {
+  padding-right: 100%; /* Ensures there's space between repeated texts */
+  line-height: 2rem; /* Matches the height of .announcement-bar */
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
