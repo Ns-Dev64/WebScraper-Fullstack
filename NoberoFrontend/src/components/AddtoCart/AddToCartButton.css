@@ -1,0 +1,16 @@
+.add-to-cart-button {
+    background-color: #1a2a64; /* Navy Blue color */
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* To make it full width */
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #14204a; /* Darker shade of the button color for hover effect */
+  }
+  

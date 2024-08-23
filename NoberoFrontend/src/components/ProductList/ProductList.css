@@ -71,3 +71,13 @@
     text-align: center;
     padding: 10px;
 }
+
+.out-of-stock {
+    font-weight: bold;        /* Make the text bold */
+    color: red;               /* Add some color (red in this case) */
+    font-size: 1.5rem;        /* Increase the font size */
+    text-align: center;       /* Center the text horizontally */
+    margin: 20px 0;  
+             /* Add some spacing around the text */
+  }
+  

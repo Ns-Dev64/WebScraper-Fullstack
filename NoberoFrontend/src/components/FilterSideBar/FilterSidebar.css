@@ -59,3 +59,7 @@
 .filter-option input {
     margin-right: 8px;
 }
+
+.clear-filters-button{
+  outline: none; 
+}
